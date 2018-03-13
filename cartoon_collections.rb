@@ -18,6 +18,7 @@ def find_the_cheese(food_array)
     if cheese_types.include?(food_array[i])
       food_array[i]
     else    
-    i++
+      i += 1
   end
+end
 end
