@@ -19,5 +19,5 @@ def find_the_cheese(food_array)
       food_array[i]
     end
     i++
-  end 
+  end
 end
