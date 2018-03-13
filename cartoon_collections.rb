@@ -12,12 +12,13 @@ end
 
 def find_the_cheese(food_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i = 0
 
-  cheese_types each do |cheese|
-    if food_array.include?(cheese)
-      food_array.find(cheese)
+  while i < food_array.length
+    if cheese_types.include?(food_array[i])
+      food_array[i]
+    else
+      nil
     end
   end 
-
-
 end
